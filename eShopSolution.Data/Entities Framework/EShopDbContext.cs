@@ -27,6 +27,7 @@ namespace eShopSolution.Data.Entities_Framework
             modelBuilder.ApplyConfiguration(new ProductTranslationConfiguration()); 
             modelBuilder.ApplyConfiguration(new PromotionConfiguration());
             modelBuilder.ApplyConfiguration(new TransactionConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductImageConfiguration());
 
 
             //base.OnModelCreating(modelBuilder);
